@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kategori Produk - FashionKu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h1 class="logo">FashionKu</h1>
+  <ul class="nav-menu">
+    <li><a href="index.html">Beranda</a></li>
+    <li><a href="produk.html">Produk</a></li>
+    <li><a href="kategori.html">Kategori</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+  </ul>
+</nav>
+
+<section class="filter-section">
+  <h2>Filter Kategori</h2>
+  <select id="categoryFilter" onchange="filterKategori()">
+    <option value="semua">Semua</option>
+    <option value="kaos">Kaos</option>
+    <option value="hoodie">Hoodie</option>
+    <option value="jaket">Jaket</option>
+  </select>
+</section>
+
+<section id="produkGrid" class="produk"></section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
