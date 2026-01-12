@@ -1,0 +1,22 @@
+.filter-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.detail-produk {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.detail-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 450px;
+}
+.detail-card img {
+  width: 100%;
+  border-radius: 10px;
+}
